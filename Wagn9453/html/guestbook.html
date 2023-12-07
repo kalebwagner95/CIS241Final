@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Guest Book - Kaleb Wagner</title>
+<meta name="author" content="Kaleb Wagner">
+<meta name="Keywords" content="Guest book, sign-in, mailto">
+<meta name="Description" content="A guestbook page for guests to enter information
+								  about themselves">
+<meta charset="utf-8">
+<meta name="robots" content="follow">
+<meta http-equiv="default-style" content="../css/style.css/">
+<link rel="stylesheet"  type="text/css" href="../css/style.css/">
+</head>
+
+<header>
+<img src="../images/waterfront.jpg" alt="Edmonds waterfront" class="center">
+</header>
+<div style="text-align: center;">
+<nav>
+<a href="home.html" class="myButton">Home</a>
+<a href="interests.html" class="myButton">Interests</a>
+<a href="resume.html" class="myButton">Resume</a>
+<a href="reflections.html" class="myButton">Reflections</a>
+<a href="guestbook.html" class="myButton">Guestbook</a>
+</nav>
+</div>
+<br><br>
+
+<form action="mailto:kaleb.wagner95@gmail.com" method="get" enctype="text/plain">
+Enter Your First Name: <input type="text" name="FirstName" size="40">
+<br>
+<br>
+Enter Your Last Name: <input type="text" name="LastName" size="40">
+<br>
+<br>
+Enter Your E-mail: <input type="text" name="Email" size="40">
+<br>
+<br>
+What country do you live in? <input type="text" name="CountryFrom" size="40">
+<br>
+<br>
+What is your experience as Web Developer<br>
+<input type="radio" name="AddToList" value="None">None <br>
+<input type="radio" name="AddToList" value="Beginner">Beginner<br>
+<input type="radio" name="AddToList" value="Intermediate">Intermediate<br>
+<input type="radio" name="AddToList" value="Advanced">Advanced<br>
+<br>
+<br>
+Should we add you to our mailing list?
+          <input type="radio" name="AddToList" value="yes" checked="checked" >Yes
+          <input type="radio" name="AddToList" value="no" >No
+<br>
+<br>
+What web technologies are you interested in? (choose all that apply):
+<br>
+<select name="work" Multiple="multiple" size="6">
+<option>HTML</option>
+<option>CSS</option>
+<option>JavaScript</option>
+<option>AJAX</option>
+<option>SQL</option>
+<option>PHP</option>
+</select>
+<br>
+<br>
+How did you find my website?<br>
+<select name="FindWebsite">
+<option>Select one</option>
+<option>I'm a friend</Option>
+<option>Google</option>
+<option>Github</option>
+<option>Edmonds College Website</option>
+<option>A different Search Engine</Option>
+<option>Other</option>
+</select>
+<br>
+<br>
+
+Comments: <br>
+<textarea name="comments" cols="30" rows="3">Enter your message here
+</textarea>
+<br>
+<br>
+<input type="submit">
+<input type="reset">	
+</form>
+
+
+
+
+
+</html>
